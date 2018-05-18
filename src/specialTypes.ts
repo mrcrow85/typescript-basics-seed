@@ -45,3 +45,16 @@ let sumOrder2: (price: number, quantity: number) => number = (x, y) => x * y;
 // functions with optional parameters
 let sumOrder3: (price: number, quantity?: number) => number = (x, y = 1) =>
   x * y;
+
+//object type
+let car: { model: string; brand: string } = { model: "F150", brand: "Ford" };
+
+//Arrays
+let colors: string[];
+colors = ["black", "yellow"];
+let colors2: Array<string>;
+colors2 = ["black", "yellow"];
+
+//tuple types
+let array: [string, number, boolean];
+array = ["", 1, true];
